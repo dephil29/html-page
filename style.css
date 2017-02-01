@@ -1,7 +1,37 @@
-.first-header {
-    color: green;
+body {
+    margin: 0;
 }
 
-.button {
-    background-color: #cef;
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #444;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-
+}
+
+.nav-link {
+    margin-left: 90px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    color: #00b;
+    background-color: #fff;
+}
+
+.nav,
+.nav-link{
+    color: #eee;
+}
+
+.picture-of-me {
+    width: 100%;
+    max-width: 300px;
 }
