@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: "Book Antiqua"
 }
 
 .nav {
@@ -7,12 +8,19 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     background-color: #444;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
 }
+
 
 .title {
     margin-top: 0;
     margin-bottom: 0;
-    font-
+}
+
+.nav-links-container {
+    padding-right: 30px;
 }
 
 .nav-link {
@@ -26,12 +34,75 @@ body {
     background-color: #fff;
 }
 
-.nav,
-.nav-link{
+.nav, .nav-link {
     color: #eee;
+}
+
+.landing-page {
+    min-height: 100vh;
+    background-image: url('./no-spaces.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.picture-of-me-container {
+    text-align: right;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding-top: 67px;
 }
 
 .picture-of-me {
     width: 100%;
-    max-width: 300px;
+    max-width: 500px;
+    display: inline-block;
+}
+
+.picture-of-me-container, .about-text {
+    width: 50%;
+    min-width: 300px;
+
+}
+
+.portfolio-container {
+    background-color: #eee;
+}
+
+.section-header {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    width: 300px;
+    background-color: #ddd;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px 0 #000;
+}
+
+.project .image {
+    width: 100%;
+    height: 200px;
+    background-image: url('./project-placeholder.jpg');
+    background-size: cover;
+
+}
+
+.job-title {
+
 }
