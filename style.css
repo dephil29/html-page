@@ -105,3 +105,24 @@ body {
 .job-title {
 
 }
+.section-header {
+    text-align: center;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+
+.form {
+    display: inline-block;
+}
+
+.contact-comment {
+    margin-top: 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
